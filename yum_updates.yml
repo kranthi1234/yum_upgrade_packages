@@ -1,0 +1,5 @@
+---
+- name: yum upgrades excluding kernel
+  hosts: ansible-controlnode-1
+  roles:
+    - yum_updates
